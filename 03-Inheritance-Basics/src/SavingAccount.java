@@ -4,7 +4,7 @@ public class SavingAccount extends BankAccount{
         super(accountNumber,customerName,email,phoneNumber);
         this.interestRate=interestRate;
     }
-    public double calculateInterest(double balance){
+    public double calculateInterest(){
         return getBalance()*interestRate;
     }
 }
